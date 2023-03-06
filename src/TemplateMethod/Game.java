@@ -3,22 +3,18 @@ package TemplateMethod;
 abstract class Game {
 
     protected int playersCount;
-
     abstract void initializeGame();
-
-    abstract void makePlay(int player);
-
-    abstract boolean endOfGame();
-
+    abstract void makeAMove(int player);
+    abstract boolean gameOver();
     abstract void printWinner();
 
-    /* A template method : */
+    /* Template method: */
     public final void playOneGame(int playersCount) {
         this.playersCount = playersCount;
         initializeGame();
         int j = 0;
-        while (!endOfGame()){
-            makePlay(j);
+        while (!gameOver()){
+            makeAMove(j);
             j = (j + 1) % playersCount;
         }
         printWinner();

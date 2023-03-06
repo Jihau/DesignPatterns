@@ -26,7 +26,7 @@ public class CardGame extends Game {
     }
 
     @Override
-    void makePlay(int player) {
+    void makeAMove(int player) {
         System.out.println("Drawing a card..");
         int drawnIndex = random.nextInt(deck.size());
         String drawnCard = deck.get(drawnIndex);
@@ -40,7 +40,7 @@ public class CardGame extends Game {
     }
 
     @Override
-    boolean endOfGame() {
+    boolean gameOver() {
         return gameOver;
     }
 
