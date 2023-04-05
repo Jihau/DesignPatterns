@@ -9,7 +9,7 @@ public class Main {
         hesburgerBuilder.addLettuce();
         hesburgerBuilder.addTomato();
         hesburgerBuilder.addOnion();
-        hesburgerBuilder.addMayonese();
+        hesburgerBuilder.addMayonnaise();
         Burger hesburgerBurger = hesburgerBuilder.getBurger();
         System.out.println(hesburgerBurger);
 

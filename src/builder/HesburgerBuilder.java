@@ -36,7 +36,7 @@ public class HesburgerBuilder implements BurgerBuilder {
     }
 
     @Override
-    public void addMayonese() {
+    public void addMayonnaise() {
         components.add("paprikamajoneesi");
     }
 

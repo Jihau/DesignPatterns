@@ -7,6 +7,6 @@ public interface BurgerBuilder {
     void addLettuce();
     void addTomato();
     void addOnion();
-    void addMayonese();
+    void addMayonnaise();
     Burger getBurger();
 }

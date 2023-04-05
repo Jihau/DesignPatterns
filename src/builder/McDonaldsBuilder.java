@@ -34,7 +34,7 @@ public class McDonaldsBuilder implements BurgerBuilder {
     }
 
     @Override
-    public void addMayonese() {
+    public void addMayonnaise() {
 
     }
 
