@@ -30,6 +30,7 @@ public class Test extends JFrame {
         Border border = BorderFactory.createRaisedBevelBorder();
         Border border2 = BorderFactory.createRaisedBevelBorder();
 
+
         // Asetetaan paneleille rajat
         panel.setBorder(border);
         panel2.setBorder(border2);
