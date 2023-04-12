@@ -13,7 +13,7 @@ public class Test2 extends JFrame {
     private int colorIndex = 0;
 
     public static void main(String[] args) {
-        Test test = new Test();
+        Test2 test = new Test2();
         test.setBounds(20,20,250,150);
         test.setVisible(true);
     }
@@ -48,6 +48,7 @@ public class Test2 extends JFrame {
             }
         });
 
+        // luo timer, joka vaihtaa paneelin reunuksen väriä
         timer = new Timer(1000, e -> {
             // vaihda paneelin reunuksen väriä
             border = BorderFactory.createLineBorder(colors[colorIndex]);
