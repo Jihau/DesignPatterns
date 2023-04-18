@@ -14,7 +14,7 @@ public class Test extends JFrame {
         // Luodaan Test-olio
         Test test = new Test();
         // Asetetaan olion koko ja sijainti
-        test.setBounds(20,20,250,150);
+        test.setBounds(20,19,250,205);
         // Tehdään olio näkyväksi
         test.setVisible(true);
     }
@@ -36,8 +36,8 @@ public class Test extends JFrame {
         panel2.setBorder(border2);
 
         // Asetetaan paneleille koko
-        panel.setPreferredSize(new Dimension(100,100));
-        panel2.setPreferredSize(new Dimension(100,100));
+        panel.setPreferredSize(new Dimension(50,100));
+        panel2.setPreferredSize(new Dimension(100,50));
 
         // Haetaan Container-olio ja asetetaan sen layout FlowLayoutiksi
         Container contentPane = getContentPane();
